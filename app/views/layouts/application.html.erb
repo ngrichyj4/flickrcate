@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>Flickrcate</title>
+  <%= include_gon %>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
+  <%= csrf_meta_tags %>
+</head>
+<body class="body page-index clearfix">
+  <header class="_container clearfix">
+    <img class="logo" src="<%= asset_path 'flickr.png' %>">
+    <p class="headline">Search Flickr Photos</p>
+    <div class="action clearfix">
+    <form class='form-search' action="/photos/search" data-remote="true" data-type="html" method="post">
+      <input class="search" name="keyword" placeholder="What are you looking for ?" type="text">
+      <button class="submit">Search</button>
+    </form>
+    </div>
+  </header>
+  <div class="results clearfix">
+    <span class="text">Search results</span>
+    <div class="photos clearfix">
+		  <div class="photo clearfix default">
+		    <img class="image" src="<%= asset_path 'default.jpg' %>">
+		  </div>
+		  <%= yield %>
+		</div>
+  </div>
+</body>
+</html>

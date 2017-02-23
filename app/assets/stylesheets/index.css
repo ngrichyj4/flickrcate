@@ -1,0 +1,122 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: normal 1.25em/1.38 Titillium-Light;
+  color: rgb(182, 192, 207);
+}
+
+.action {
+  float: left;
+  clear: both;
+  width: 633px;
+  height: 45px;
+  margin-top: 36px;
+}
+
+.headline {
+  float: left;
+  clear: both;
+  width: 91.304347826%;
+  margin: 17px 0 0 8.51242%;
+  font-family: Titillium-Light;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(182, 192, 207);
+}
+
+.image {
+  display: block;
+  width: 640px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.logo {
+  display: block;
+  float: left;
+  width: 100px;
+  height: auto;
+  margin-left: 45.0069%;
+  overflow: hidden;
+}
+
+.photo {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.photos {
+  width: 640px;
+  margin: 52px auto 0;
+}
+
+.results {
+  width: 672px;
+  margin: 50px auto 0;
+  padding-bottom: 30px;
+  border-top: 1px solid rgb(220, 223, 228);
+  background-color: rgb(255, 255, 255);
+}
+
+.search {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 6;
+  width: 503px;
+  height: 45px;
+  margin-left: -0.0258977901%;
+  padding: 0 10px 0 20px;
+  border: 1px solid rgb(220, 223, 228);
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  font-family: Titillium-Semibold;
+  font-size: 0.75em;
+  color: rgb(182, 192, 207);
+}
+
+.submit {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 44;
+  width: 150px;
+  height: 45px;
+  margin: -45px 0 0 72.3728130755%;
+  border-radius: 100px;
+  background-color: rgb(87, 178, 91);
+  font-family: Titillium-Semibold;
+  font-size: 0.75em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  transition: .5s;
+}
+
+.submit:hover {
+  background-color: rgb(77, 160, 81);
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  transition: .5s;
+}
+
+.text {
+  display: block;
+  float: left;
+  margin: 13px 0 0 2.85296%;
+  font-family: Titillium-Semibold;
+  font-size: 0.8em;
+  color: rgb(182, 192, 207);
+}
+
+._container {
+  width: 634px;
+  height: 225px;
+  margin: 106px auto 0;
+}
