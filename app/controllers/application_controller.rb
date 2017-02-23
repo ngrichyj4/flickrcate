@@ -4,6 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   before_filter do
-	  gon.loader = view_context.image_path("load.gif")
-	end
+    gon.loader = view_context.image_path("load.gif")
+  end
 end
